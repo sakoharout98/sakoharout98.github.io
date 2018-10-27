@@ -1,0 +1,18 @@
+/* Tablet */
+@media all and  (max-width: 1024px) {
+    .img-coffe {
+        flex-wrap: wrap;
+    }
+
+    .image {
+        margin: 15px 0;
+    }
+
+    .location-info {
+        flex-wrap: wrap;
+    }
+
+    .location-information {
+        width: 100%;
+    }
+}
