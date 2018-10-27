@@ -8,6 +8,29 @@
         margin: 15px 0;
     }
 
+    .slider {
+
+        flex-wrap: wrap;
+
+    }
+
+    .slider-img, .slider-info {
+        width: 100%;
+    }
+
+    .slider-img {
+        height: 370px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .slider-img img {
+        width: 100%;
+        display: block;
+        position: absolute;
+        bottom: 0;
+    }
+
     .location-info {
         flex-wrap: wrap;
     }
