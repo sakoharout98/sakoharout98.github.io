@@ -38,9 +38,9 @@ p.see-menu.font-lato {
     display: inline-block;
     min-width: 40px;
     min-height: 40px;
-    padding: 10px 30px;
+    padding: 10px 40px 0;
     margin: 15px 0;
-    font-size: 25px;
+    font-size: 15px;
     color: #fff;
 }
 
@@ -195,9 +195,12 @@ p.number {
     padding-left: 0;
 }
 
-p.number {
+p.number.font-playfair {
+    font-weight: bold;
     width: 30%;
     opacity: 0.3;
+    font-size: 90px;
+    color: #3f3736;
 }
 
 .bottom-quotes {
@@ -361,9 +364,11 @@ img.svg {
 .font-lato {
     font-family: "Lato", sans-serif;
 }
-.font-playfair{
+
+.font-playfair {
     font-family: 'Playfair Display', sans-serif;
 }
+
 .imagess-cup {
     width: 100%;
     overflow: hidden;
@@ -440,3 +445,57 @@ img.svg {
     }
 }
 
+.location-info {
+    display: flex;
+}
+
+.images-location {
+    /* overflow: hidden; */
+    width: 60%;
+}
+
+.img-location {
+    overflow: hidden;
+}
+
+.text-location {
+    text-align: center;
+}
+
+p.title-loc-buttons {
+    width: 350px;
+}
+
+.working-days {
+    width: 30%;
+    box-sizing: border-box;
+    background: #f4d66e;
+    padding: 0 10px;
+    margin-top: 40px;
+}
+
+h3.location-txt {
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.regular-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+.text-footer-bootums .font-lato {
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+}
+.yellow-text.name.font-playfair{
+    font-weight: bold;
+    font-size: 20px;
+}
+.yellow-text.text-home.font-playfair{
+    font-weight: bold;
+}
+.nav.font-playfair{
+    font-weight: bold;
+}
