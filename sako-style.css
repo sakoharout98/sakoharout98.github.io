@@ -489,13 +489,16 @@ h3.location-txt {
     font-weight: bold;
     font-family: "Lato", sans-serif;
 }
-.yellow-text.name.font-playfair{
+
+.yellow-text.name.font-playfair {
     font-weight: bold;
     font-size: 20px;
 }
-.yellow-text.text-home.font-playfair{
+
+.yellow-text.text-home.font-playfair {
     font-weight: bold;
 }
-.nav.font-playfair{
+
+.nav.font-playfair {
     font-weight: bold;
 }
