@@ -53,9 +53,12 @@
 
     main.top-text-wrap {
         padding: 0;
+        overflow: hidden;
+        box-sizing: border-box;
     }
 
     header {
         padding: 0;
+
     }
 }
