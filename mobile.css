@@ -62,3 +62,8 @@
 
     }
 }
+@media all and (max-width: 640px) {
+    img.nav.font-playfair{
+        width: 25px;
+    }
+}
