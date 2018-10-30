@@ -5,11 +5,12 @@
         flex-wrap: wrap;
 
     }
-    .slider-img{
+
+    .slider-img {
         width: 100%;
     }
 
-    p.title-text.font-lato{
+    p.title-text.font-lato {
         width: 320px;
         margin: 15px auto;
         overflow: hidden;
@@ -17,5 +18,44 @@
 
     }
 
+    section.item-text {
+    }
 
+    span.yellow-text.text.font-playfair {
+        font-size: 25px;
+    }
+
+    .item-text-top {
+        text-align: center;
+
+    }
+
+    section.item-text {
+        padding: 0 10px;
+    }
+
+    p.item-text-bottums.font-lato {
+        width: 85%;
+        margin: 10px auto;
+    }
+
+    p.title-text.font-lato {
+        width: 100%;
+    }
+
+    img.nav.font-playfair {
+        width: 45px;
+    }
+
+    .working-days {
+        width: 100%;
+    }
+
+    main.top-text-wrap {
+        padding: 0;
+    }
+
+    header {
+        padding: 0;
+    }
 }
