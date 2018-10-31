@@ -49,6 +49,7 @@
 
     .working-days {
         width: 100%;
+
     }
 
     main.top-text-wrap {
@@ -65,5 +66,8 @@
 @media all and (max-width: 640px) {
     img.nav.font-playfair{
         width: 25px;
+    }
+    .working-days{
+        width: 100%;
     }
 }
