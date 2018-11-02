@@ -1,4 +1,73 @@
 /* Mobile */
+@media all and (max-width: 750px) {
+    .working-days {
+        width: 100%;
+    }
+    img.nav.font-playfair{
+        width: 50px;
+    }
+    section.item-text {
+        padding: 0 10px;
+    }
+
+    span.yellow-text.text.font-playfair {
+        font-size: 25px;
+    }
+
+    .item-text-top {
+        /* padding: 14px 0; */
+        text-align: center;
+        /* margin: 70px 0 auto; */
+    }
+
+    span.yellow-text.text.font-playfair {
+        /* margin: 0 auto; */
+    }
+
+    .item-text-top {
+        text-align: center;
+    }
+
+    p.item-text-bottums.font-lato {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    main.top-text-wrap {
+        padding: 0;
+    }
+
+    header {
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 736px) {
+
+}
+
+@media all and (max-width: 700px) {
+    img.nav.font-playfair{
+        width: 50px;
+    }
+}
+
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 640px) {
+
+    img.nav.font-playfair {
+        width: 25px;
+    }
+
+    .working-days {
+        width: 100%;
+    }
+
+}
+
 @media all and (max-width: 480px ) {
     .slider {
 
@@ -32,8 +101,8 @@
     }
 
     p.item-text-bottums.font-lato {
-        width: 85%;
-        margin: 10px auto;
+        width: 100%;
+        /*margin: 10px 0;*/
     }
 
     p.title-text.font-lato {
@@ -60,59 +129,23 @@
 
     }
 }
-@media all and (max-width: 640px) {
-    img.nav.font-playfair{
-        width: 25px;
-    }
-    .working-days{
-        width: 100%;
-    }
 
-}
-@media all and (max-width: 750px) {
-    .working-days{
-        width: 100%;
-    }
-    span.yellow-text.text.font-playfair {
-        font-size: 25px;
-    }
-
+@media all and (max-width: 375px) {
     .item-text-top {
-        /* padding: 14px 0; */
-        text-align: left;
-
-        margin: 70px 0 auto;
-    }
-
-    span.yellow-text.text.font-playfair {
-        /* margin: 0 auto; */
-    }
-
-    .item-text-top {
+        margin: 0 auto;
         text-align: center;
+
+    }
+}
+
+@media all and (max-width: 360px) {
+    .item-text-top {
+        /*text-align: center;*/
+        margin: 0 auto;
     }
 
     p.item-text-bottums.font-lato {
-        width: 80%;
-    }
 
-    main.top-text-wrap {
-        padding: 0;
+        text-align: left;
     }
-
-    header {
-        padding: 0;
-    }
-}
-@media all and (max-width: 700px){
-.item-text-top{
-    text-align: left;
-
-}
-}
-@media all and (max-width: 667px){
-    .item-text-top{
-        text-align: center;
-    }
-
 }
